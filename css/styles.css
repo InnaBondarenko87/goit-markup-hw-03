@@ -1,0 +1,228 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#434455 ;
+    background-color:#ffffff;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.web{
+    color:#2e2f42;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    font-weight: 700;
+}
+
+.link {
+    list-style-type: none;
+    color:#2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-text .link:hover,
+.nav-text .link:focus {
+color: #404bbf;
+}
+
+.address-text{
+    font-style: normal;
+}
+
+.address-text li,
+.nav-text li {
+list-style-type: none;
+}
+
+.address-contakt {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    font-style: normal;
+}
+
+.address-text .address-contakt:focus, 
+.address-text .address-contakt:hover {
+   color: #404bbf;
+}
+
+.title{
+background-color: #2E2F42;
+text-align: center;
+}
+
+.title-title{
+    color: var(--white, #FFF);
+    /* Header 1 */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.title-button{
+    background: var(--iris, #4D5AE5);
+    cursor: pointer;
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.title-button:focus {
+background-color:#404BBF;
+}
+
+.title-button:hover{
+    background-color: #404BBF;
+}
+
+.heading-title{
+color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.heading-title-heading{
+color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.heading-link {
+    list-style-type: none;
+}
+
+.paragraph{
+    color: var(--slate, #434455);
+        /* Body */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+
+}
+
+.team{
+ background-color:#F4F4FD;
+}
+
+.team-title{
+        color:#2E2F42;
+        text-align: center;
+        /* Header 2 */
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.team-link{
+background-color: #FFFFFF;
+list-style-type: none;
+}
+
+.team-title-heading{
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+
+.portfolio-link{
+list-style-type: none;
+}
+
+.portfolio-title{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 1.11;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+} 
+
+.portfolio-title-heading{
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+   color: #2e2f42;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.basement{
+background:#2E2F42;
+}
+
+.paragraph-footer {
+    color: #F4F4FD;
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+
+}
+
+.studio{
+    color: #f4f4fd; 
+}
+
