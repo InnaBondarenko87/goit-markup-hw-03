@@ -22,9 +22,9 @@ img{
 
 .container {
     width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
 }
 
 .section{
@@ -50,7 +50,7 @@ text-decoration: none;
     line-height: 1.17;
     font-weight: 700;
     padding-left: 156px;
-    padding-right: 36px;
+    margin-right: 76px;
 }
 
 .link {
@@ -68,10 +68,10 @@ text-decoration: none;
     text-align: center;
     border-bottom: 1px solid #E7E9FC;
     background: var(--white, #FFF);
-    padding-top: 24px;
-    padding-bottom: 24px;
     width: calc((100%-72px)/4);
+    padding: 24px 0;
 }
+
 .header,
 .header-container,
 .nav-text,
@@ -80,12 +80,18 @@ text-decoration: none;
     justify-content: space-between;
 }
 
-/*header-link {
-    /*padding-right: 156px;
-    padding-left: 332px;
-    gap: 40px;
-    display: flex;
-}*/
+.header-container{
+    align-items: center;
+}
+
+.link{
+    margin-right: 40px;
+    
+}
+
+.link .end{
+    margin-right: 0;
+}
 
 .nav-text .link:hover,
 .nav-text .link:focus {
@@ -120,10 +126,9 @@ color: #404bbf;
 
 .hero{
 background-color: #2E2F42;
-}
+padding: 188px 0;}
 
-.hero-containe{
-    padding: 188px 0;
+.hero-containe{ 
     text-align: center;
    /* flex-direction: column;*/
 }
@@ -143,7 +148,7 @@ background-color: #2E2F42;
     line-height: 60px;
     line-height: 1.07;
     letter-spacing: 0,02em;
-    width: 496px;
+    max-width: 496px;
   /*width: calc((100%-72px)/4);*/
    margin-right: 472px;
    margin-left: 472px;
@@ -152,6 +157,7 @@ background-color: #2E2F42;
 
 .hero-button{ 
     display: block;
+    border: none;
     /*display:inline-flex;*/
     padding: 16px 32px;
     align-items:center;
@@ -205,14 +211,13 @@ background-color: #2E2F42;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .menu{
     display: flex; 
     /*justify-content: space-around;*/
     gap: 24px;
-    width: calc((100%-72px)/4);
 }
 
 .title-heading{
@@ -224,8 +229,8 @@ background-color: #2E2F42;
     line-height: 24px;
     /* 120% */
     letter-spacing: 0,02em;
-    width: calc((100%-72px)/4);
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .menu .paragraph{
@@ -237,7 +242,6 @@ background-color: #2E2F42;
     line-height: 24px;
     /* 150% */
     letter-spacing: 0,02em;
-    width:calc((100%-72px)/4);
 }
 
         /*team*/
@@ -255,6 +259,7 @@ background-color: #2E2F42;
 .container-team{
     padding: 32px 0;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 } 
 
 .team-title{
@@ -275,6 +280,11 @@ background-color: #2E2F42;
 background-color: #FFFFFF;
 list-style-type: none;
 padding-right: 0;
+margin-right: 24px;
+}
+
+.container-team .end{
+margin-right: 0;
 }
 
 .team-title-heading{
@@ -286,18 +296,18 @@ padding-right: 0;
     line-height: 24px;
     /* 120% */
     letter-spacing: 0.4px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
         /*portfolio*/
 
 .portfolio-link{
 list-style-type: none;
-
 }
 
 .container-portfolio {
-padding: 32px 0;
+padding: 32px 16px;
+border-top: none;
 text-align: center;
 border: 1px solid var(--cornflower, #E7E9FC);
 }
@@ -307,13 +317,17 @@ border: 1px solid var(--cornflower, #E7E9FC);
 .portfolio-heading{
     display: flex;
     flex-wrap: wrap;
-    
     gap: 24px;
 }
 
 .portfolio-link{
-width: calc((100%-48px)/3);
+margin-bottom: 48px;
+width: calc((100% - 48px) / 3);
 /*border: 1px solid var(--cornflower, #E7E9FC);*/
+}
+
+.portfolio-link .end{
+    margin-bottom: 0;
 }
 
 .portfolio-title{
@@ -336,12 +350,13 @@ width: calc((100%-48px)/3);
     /* Header 3 */
     font-size: 20px;
     font-style: normal;
-   color: #2e2f42;
+    color: #2e2f42;
     font-weight: 500;
     line-height: 24px;
     /* 120% */
     letter-spacing: 0.4px;
     padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
@@ -349,6 +364,7 @@ width: calc((100%-48px)/3);
 
 .footer{
     flex-direction: column;
+    
 }
 
 .paragraph-footer {
@@ -370,16 +386,16 @@ background:#2E2F42;
 padding: 100px 0;
 }
 
-.studio{
-    color: #f4f4fd; 
+.footer .studio{
+    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .basement-link{
-    display: inline-block;
     align-content:start;
     padding: 100px 0;
     margin-right: 0;
-    margin-bottom: 16px;
 }
 
 .logo{
@@ -391,5 +407,5 @@ padding: 100px 0;
     letter-spacing: 0.03em;
     line-height: 1.17;
     font-weight: 700;
-    text-align: left;     
+    text-align: left;  
 }
