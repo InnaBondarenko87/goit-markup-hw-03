@@ -312,6 +312,9 @@ text-align: center;
 border: 1px solid var(--cornflower, #E7E9FC);
 }
 
+.portfolio{
+    border-top: none;
+}
 .page-portfolio
 .portfolio
 .portfolio-heading{
