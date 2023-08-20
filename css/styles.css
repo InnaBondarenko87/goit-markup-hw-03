@@ -49,7 +49,7 @@ text-decoration: none;
     letter-spacing: 0.03em;
     line-height: 1.17;
     font-weight: 700;
-    padding-left: 156px;
+    margin-left: 156px;
     margin-right: 76px;
 }
 
@@ -61,6 +61,10 @@ text-decoration: none;
     letter-spacing: 0.02em;
     padding-left: 40px;
     padding-right: 0;
+}
+
+.link:last-child{
+    margin-right: 0;
 }
 
 .header-page-container{
@@ -86,11 +90,6 @@ text-decoration: none;
 
 .link{
     margin-right: 40px;
-    
-}
-
-.link .end{
-    margin-right: 0;
 }
 
 .nav-text .link:hover,
@@ -128,9 +127,8 @@ color: #404bbf;
 background-color: #2E2F42;
 padding: 188px 0;}
 
-.hero-containe{ 
-    text-align: center;
-   /* flex-direction: column;*/
+.hero-containe{
+    text-align: center; 
 }
 
 .hero-button:focus,
@@ -150,9 +148,12 @@ padding: 188px 0;}
     letter-spacing: 0,02em;
     max-width: 496px;
   /*width: calc((100%-72px)/4);*/
-   margin-right: 472px;
-   margin-left: 472px;
-  
+
+}
+ 
+.hero .hero-title{
+    margin-right: 472px;
+    margin-left: 472px;
 }
 
 .hero-button{ 
@@ -178,7 +179,6 @@ padding: 188px 0;}
     height: 56px;
     margin-left: 636px;
 }
-
 
 
         /*heading*/
@@ -385,13 +385,13 @@ width: calc((100% - 48px) / 3);
 
 .basement {
 background:#2E2F42;
+padding: 100px 0;
 }
 
 .footer .studio{
     color: #f4f4fd;
     display: inline-block;
     margin-bottom: 16px;
-    padding: 100px 0;
 }
 
 .basement-link{
