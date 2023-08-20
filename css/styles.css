@@ -259,7 +259,7 @@ padding: 188px 0;}
 .container-team{
     padding: 32px 0;
     text-align: center;
-    border-radius: 0px 0px 4px 4px;
+    
 } 
 
 .team-title{
@@ -281,10 +281,11 @@ background-color: #FFFFFF;
 list-style-type: none;
 padding-right: 0;
 margin-right: 24px;
+border-radius: 0px 0px 4px 4px;
 }
 
-.container-team .end{
-margin-right: 0;
+.team-link:last-child {
+    margin-right: 0;
 }
 
 .team-title-heading{
@@ -312,9 +313,6 @@ text-align: center;
 border: 1px solid var(--cornflower, #E7E9FC);
 }
 
-.portfolio{
-    border-top: none;
-}
 .page-portfolio
 .portfolio
 .portfolio-heading{
@@ -326,10 +324,11 @@ border: 1px solid var(--cornflower, #E7E9FC);
 .portfolio-link{
 margin-bottom: 48px;
 width: calc((100% - 48px) / 3);
-/*border: 1px solid var(--cornflower, #E7E9FC);*/
 }
 
-.portfolio-link .end{
+#online-courses,
+#screen-illustrations,
+#taxi-service{
     margin-bottom: 0;
 }
 
@@ -386,18 +385,17 @@ width: calc((100% - 48px) / 3);
 
 .basement {
 background:#2E2F42;
-padding: 100px 0;
 }
 
 .footer .studio{
     color: #f4f4fd;
     display: inline-block;
     margin-bottom: 16px;
+    padding: 100px 0;
 }
 
 .basement-link{
     align-content:start;
-    padding: 100px 0;
     margin-right: 0;
 }
 
