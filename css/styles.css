@@ -166,11 +166,8 @@ margin: auto;
 .hero-button{ 
     display: block;
     border: none;
-    /*display:inline-flex;*/
     padding: 16px 32px;
     align-items:center;
-    /*gap: 10px;*/
-    
     background: var(--iris, #4D5AE5);
     cursor: pointer;
     color: var(--white, #FFF);
@@ -188,8 +185,6 @@ margin: auto;
    
 }
  
-
-
         /*heading*/
 
 /*щоб не відображався h2*/
