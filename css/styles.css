@@ -74,10 +74,6 @@ text-decoration: none;
     justify-content: space-between;
 }
 
-.header-container{
-    align-items: center; 
-}
-
 .header{
     align-items: center;
 }
@@ -118,10 +114,6 @@ text-decoration: none;
 .address-text {
     font-style: normal;
 }
-
-/*.header-link{
-padding: 24px 0;
-}*/
 
 .address-contakt {
     color: #434455;
