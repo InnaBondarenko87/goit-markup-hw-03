@@ -84,8 +84,6 @@ text-decoration: none;
 
 .link-text{
     margin-right: 40px;
-    /*padding-top: 24px;
-    padding-bottom: 24px;*/
 }
 
 .link-text:last-child {
@@ -156,7 +154,6 @@ margin: auto;
     max-width: 496px;
     position: relative;
     padding-bottom: 48px;
-  /*width: calc((100%-72px)/4);*/
 }
  
 .hero .hero-title{
