@@ -76,14 +76,18 @@ text-decoration: none;
     justify-content: space-between;
 }
 
+.nav-text{
+    padding: 24px 0;
+}
+
 .header-container{
     align-items: center;
 }
 
 .link-text{
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /*padding-top: 24px;
+    padding-bottom: 24px;*/
 }
 
 .link-text:last-child {
