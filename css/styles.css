@@ -73,6 +73,9 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
 }
+.header-container{
+    align-items: center;
+}
 
 .header{
     align-items: center;
