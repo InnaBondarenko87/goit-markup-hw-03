@@ -113,7 +113,10 @@ text-decoration: none;
 
 .address-text {
     font-style: normal;
-    padding: 24px 0;
+}
+
+.header-link{
+padding: 24px 0;
 }
 
 .address-contakt {
