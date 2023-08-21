@@ -24,7 +24,7 @@ img{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin:0 auto;
+    margin: 0 auto;
 } 
 
 .section{
@@ -60,7 +60,6 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-
 .header-page-container{
     flex-shrink: 0;
     text-align: center;
@@ -85,7 +84,6 @@ text-decoration: none;
     margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-   /* width: calc((100%-72px)/4);*/
 }
 
 .link-text:last-child {
