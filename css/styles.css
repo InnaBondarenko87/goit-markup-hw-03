@@ -78,6 +78,10 @@ text-decoration: none;
     align-items: center; 
 }
 
+.header{
+    align-items: center;
+}
+
 .header-container{
     padding: 24px 0;
 }
@@ -115,9 +119,9 @@ text-decoration: none;
     font-style: normal;
 }
 
-.header-link{
+/*.header-link{
 padding: 24px 0;
-}
+}*/
 
 .address-contakt {
     color: #434455;
