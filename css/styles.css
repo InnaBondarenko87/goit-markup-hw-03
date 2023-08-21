@@ -62,10 +62,8 @@ text-decoration: none;
 
 .header-page-container{
     flex-shrink: 0;
-    text-align: center;
     border-bottom: 1px solid #E7E9FC;
     background: var(--white, #FFF);
-    width: calc((100%-72px)/4);
 }
 
 .header,
