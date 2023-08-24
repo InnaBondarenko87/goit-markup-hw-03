@@ -221,7 +221,6 @@ margin: auto;
 
 .menu{
     display: flex; 
-    /*justify-content: space-around;*/
     gap: 24px;
 }
 
@@ -330,9 +329,9 @@ margin-bottom: 48px;
 width: calc((100% - 48px) / 3);
 }
 
-#online-courses,
-#screen-illustrations,
-#taxi-service{
+.portfolio-link:nth-last-child(3),
+.portfolio-link:nth-last-child(2),
+.portfolio-link:nth-last-child(1){
     margin-bottom: 0;
 }
 
